@@ -1,0 +1,170 @@
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    background-color: #f64d4a;
+}
+
+
+.banner {
+    height: 100vh;
+
+    background-image: url(../img/golpe.gif);
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    position: relative;
+}
+
+.color-overlay {
+    width: 100%;
+    height: 100%;
+    background: #f64d4a;
+    opacity: 0.6;
+    
+    position: absolute;
+}
+
+.banner-elementos {
+    margin-top: 30vh;
+    font-family: Verdana, Tahoma, sans-serif;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner h1 {
+    color: rgb(0, 0, 0);
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 10px;
+    opacity: 0.7;
+}
+.banner h2 {
+    color: rgb(0, 0, 0);
+    font-size: 3.5rem;
+    font-weight: bold;
+    padding: 10px;
+    opacity: 0.7;
+}
+
+.banner p {
+    font-size: 2rem;
+    padding: 0 15px;
+    color: white;
+}
+
+
+@media (min-width: 576px) {
+
+    .banner h1 {
+        font-size: 4.5rem;
+    }
+
+    .banner p {
+        font-size: 2.5rem;
+    }
+
+}
+
+#Carreira {
+    background-color: #f64d4a;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 80px 30px;
+ 
+}
+
+#Carreira h2 {
+    font-size: 2.5rem;
+    margin-bottom: 80px;
+}
+
+#Carreira h3 {
+    margin-top: 30px;
+}
+
+#Carreira p {
+    color: rgb(0, 0, 0);
+    margin-bottom: 50px;
+}
+
+#Carreira .color {
+    color: #f64d4a;
+}
+
+
+#Curiosidades {
+    margin-top: 50px;
+}
+
+#Curiosidades .card {
+    padding: 5px;
+}
+
+#Curiosidades .card:hover {
+    background-color: #f64d4a;
+    transition: 0.5s;
+}
+
+
+#Curiosidades h2 {
+    
+    color: #f64d4a;
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#Curiosidades h4 {
+    color: #000000;
+}
+
+#acidente .jumbotron {
+    height: 90vh;
+    background-color: #f64d4a;
+    color: #000000;
+    text-align: center;
+    
+}
+#acidente img {
+    width: 1200px;
+    height: 505px;
+    border: black;
+    
+}
+
+#acidente h2 {
+    font-size: 2.5rem;
+}
+
+#acidente p {
+    font-size: 1.2rem;
+}
+
+#acidente span {
+    margin-left: 10px;
+}
+
+
+footer {
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 2.2rem;
+}
+
+footer .card-body {
+    background-color: #ffffff;
+    color: black;
+}
